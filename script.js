@@ -11,4 +11,5 @@ function computerPlay() {
 computerPlay();
 }
 
-document.getElementById("button")
+document.getElementById("button").addEventListener("click", function())
+    document.querySelector
