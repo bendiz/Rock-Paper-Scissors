@@ -42,7 +42,7 @@ body {
     color: #ffffff;
 }
 
-.bg-popup {
+.bg-popup, .bg-popup-win, .bg-popup-lose {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -54,7 +54,7 @@ body {
     display: none;
 }
 
-.popup-content {
+.popup-content, .popup-content-win, .popup-content-lose {
     width: 500px;
     height: 200px;
     background-color: white;
@@ -94,3 +94,4 @@ input {
     position: absolute;
     top: 0;
     right: 14px;
+}
